@@ -1,7 +1,7 @@
 # CRC-8 Checksum for Data Blocks on Spartan-6 FPGA
 
 ## 📌 Project Overview
-This project implements an **8-bit CRC (Cyclic Redundancy Check) checksum generator and checker** for data blocks using **Verilog HDL**, targeted for execution on a **Spartan-6 FPGA**. The design ensures reliable error detection in digital communication systems.
+Project from an Advanced Digital Design course focusing on low-level system integrity. The core of this repository is a **hardware-ready CRC-8** algorithm. It utilizes a bit-by-bit calculation method, first implemented and validated in Assembly, then translated into a synthesizable verillog module and verified on spartan-6 FPGA board.
 
 ## 🚀 Features
 - Serial CRC-8 checksum generation for input data blocks.
