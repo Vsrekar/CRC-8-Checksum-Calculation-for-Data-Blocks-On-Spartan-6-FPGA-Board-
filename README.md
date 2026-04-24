@@ -16,7 +16,7 @@ This project implements an **8-bit CRC (Cyclic Redundancy Check) checksum genera
 - **Toolchain:** Cadence Genus(Logic synthesis) Xilinx ISE (Synthesis,routing and implementation)
 
 ## 📂 Project Structure
-## 🔄 Pipeline Working (Stage-by-Stage)
+### 🔄 Pipeline Working (Stage-by-Stage)
 
 The processor follows a classic 5-stage pipeline, where instructions flow sequentially through:
 
@@ -43,6 +43,7 @@ The processor follows a classic 5-stage pipeline, where instructions flow sequen
 ### 5. Write Back (WB)
 - Final result (ALU or CRC output) is written back to the register file
 
+<img width="500" height="360" alt="image" src="https://github.com/user-attachments/assets/4f3505c5-aacc-4a83-8c6a-daa18fb6c1e0" />
 
 ## 🔁 Pipeline Data Flow
 
